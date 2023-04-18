@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>
+        arithemetic using Js
+    </title>
+    <h1>
+        Arithemetic Expression
+    </h1>
+    <script lang="Javascript">
+        function f() {
+            var l = document.myform.fi.value;
+            var r = eval(l);
+            document.write("the result is " + r);
+        }
+    </script>
+</head>
+
+<body font="25">
+    <form name="myform">
+        Enter Expression
+        <input type="text" name="fi">
+        <input type="BUTTON" value="Click" onclick="f()">
+    </form>
+</body>
+
+</html>
